@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Luis Visita</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;700&family=Roboto:ital,wght@0,500;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+      integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+      crossorigin=""
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./asset/css/main.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <div class="barra">
+        <div class="wrapper">
+          <div class="hero-flex">
+            <div class="hero-logo">
+              <img src="" alt="Logo" />
+            </div>
+            <div class="hero-menuMovil">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <nav class="hero-menu">
+              <ul>
+                <li><a href="">Inicio</a></li>
+                <li><a href="">Nosotros</a></li>
+                <li><a href="">Galeria</a></li>
+                <li><a href="">Contacto</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <div class="hero-title">
+          <h1>Title del sitio</h1>
+          <p>Descripcion del sitio</p>
+        </div>
+      </div>
+    </header>
+
+    <section class="services">
+      <div class="wrapper">
+        <div class="services-title">
+          <h2>Servicio</h2>
+        </div>
+        <article class="services-card card">
+          <div class="card-img">
+            <img src="./asset/img/Services.jpg" alt="Card" />
+          </div>
+          <div class="card-text">
+            <h3>Servicio</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia
+              voluptatum consectetur dolorem unde modi optio debitis harum
+              labore? Amet veniam consequuntur enim rem eveniet earum iure
+              eligendi porro accusamus doloribus!
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <main class="gallery">
+      <div class="wrapper">
+        <h2>Galeria</h2>
+        <div class="gallery-flex">
+          <article class="gallery-container">
+            <figure>
+              <img src="./asset/img/Manglar.jpg" alt="Card-galeria" />
+            </figure>
+            <div class="gallery-text">
+              <h3>Galeria</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi,
+                sunt!
+              </p>
+            </div>
+          </article>
+
+          <article class="gallery-container">
+            <figure>
+              <img src="./asset/img/Manglar.jpg" alt="Card-galeria" />
+            </figure>
+            <div class="gallery-text">
+              <h3>Galeria</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi,
+                sunt!
+              </p>
+            </div>
+          </article>
+
+          <article class="gallery-container">
+            <figure>
+              <img src="./asset/img/Manglar.jpg" alt="Card-galeria" />
+            </figure>
+            <div class="gallery-text">
+              <h3>Galeria</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi,
+                sunt!
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </main>
+
+    <section class="contact">
+      <h2>contacto</h2>
+      <div class="contact-form">
+        <form action="">
+          <legend>Dejanos tu Opinión</legend>
+          <div class="form-group">
+            <label for="nombre">Nombre:</label>
+            <input
+              type="text"
+              name="nombre"
+              id="nombre"
+              class="form-control"
+              placeholder="Escriba aqui su nombre"
+            />
+          </div>
+          <div class="form-group">
+            <label for="opinion">Mensaje:</label>
+            <textarea
+              name="opinion"
+              id="opinion"
+              rows="5"
+              class="form-control"
+              placeholder="Dejanos Saber tu opinion"
+            ></textarea>
+          </div>
+          <div class="form-buttom">
+            <button><i class="far fa-comment"></i> Enviar</button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <footer>
+      <h2>Siguenos en Nuestras Redes Sociales</h2>
+      <blockquote>
+        <div class="icon">
+          <a href="">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </div>
+        <div class="icon">
+          <a href=""><i class="fab fa-twitter"></i></a>
+        </div>
+        <div class="icon">
+          <a href=""><i class="fab fa-youtube"></i></a>
+        </div>
+      </blockquote>
+      <p class="copyright">
+        &copy; Derechos Reservado <span>Luis Visita</span>
+      </p>
+      <p class="developer">
+        <i class="fas fa-code"></i> Developer: <span>Brayan Barroso</span>
+      </p>
+    </footer>
+
+    <script
+      src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+      integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+      crossorigin=""
+    ></script>
+    <script type="" src="./asset/js/main.js"></script>
+  </body>
+</html>
